@@ -6,7 +6,6 @@ def total_salary(path):
                 line = line.strip()
                 if not line:
                     continue  
-
                 try:
                     name, salary_str = line.split(',')
                     salary = float(salary_str)
