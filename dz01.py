@@ -5,7 +5,7 @@ def total_salary(path):
             for line in file:
                 line = line.strip()
                 if not line:
-                    continue  # пропустити порожні рядки
+                    continue  
                 try:
                     name, salary_str = line.split(',')
                     salary = float(salary_str)
